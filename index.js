@@ -1,7 +1,7 @@
 var request = require('request')
 var express = require('express')
 var bodyParser = require('body-parser');
- 
+var port = process.env.PORT || 3000;
 const app = express()
  
 app.use(bodyParser.json());
@@ -55,6 +55,6 @@ app.post('/guidewire', (req, res) => {
  
 })
  
-app.listen(8000,()=>{
+app.listen(port,()=>{
     console.log("app listening on 8000")
 })
