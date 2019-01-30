@@ -50,7 +50,12 @@ app.post('/guidewire', (req, res) => {
         if (error) throw new Error(error);
  
         console.log(body);
-        res.send(body)
+        let result = {
+            submissionNumber: body.result.submissionNumber,
+            currency: body.result.premium.currency,
+            amount: body.result.premium.amount
+        }
+        res.send(result)
     });
  
 })
