@@ -1,0 +1,17 @@
+{
+  "name": "guidewire-middleware",
+  "version": "1.0.0",
+  "description": "guidewire middleware json parser",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "request": "^2.88.0"
+  }
+}
