@@ -13,7 +13,7 @@ app.get("/",(req,res)=>{
  
 })
  
-app.post('/guidewire', (req, res) => {
+app.put('/guidewire', (req, res) => {
  
     console.log(req.body.VehModel)
     // res.send(req.body)
