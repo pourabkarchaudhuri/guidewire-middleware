@@ -20,7 +20,7 @@ app.put('/guidewire', (req, res) => {
  
     var options = {
         method: 'POST',
-        url: 'http://18.224.142.110:8280/pc/service/edge/quote/quote',
+        url: 'URL',
         headers:
         {
             'cache-control': 'no-cache',
