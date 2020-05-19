@@ -24,7 +24,7 @@ app.put('/guidewire', (req, res) => {
         headers:
         {
             'cache-control': 'no-cache',
-            'Authorization': 'Basic c3U6Z3c=',
+            'Authorization': 'BASIC AUTH',
             'Content-Type': 'application/json'
         },
         body:
